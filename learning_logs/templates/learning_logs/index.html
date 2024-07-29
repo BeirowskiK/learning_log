@@ -1,5 +1,19 @@
 {% extends "learning_logs/base.html" %}
 
-{% block content %}
-    <p>Learning Logs helps with follow your study progress.</p>
-{% endblock content %}
+{% block page_header %}
+    <div class="p-3 mb-4 bg-light border rounded-3">
+        <div class="container-fluid py-4">
+            <h1 class="display-3">Monitor your learning progress</h1>
+
+            <p class="lead">
+                Create account and remember more. Create new entry after you learn something new.
+                It's works! Try it yourself.
+            </p>
+
+            <p>Learning Logs helps with follow your study progress.</p>
+
+            <a class="btn btn-primary btn-lg mt-1" href="{% url 'accounts:register' %}">Create new account &raquo;</a>
+        </div>
+    </div>
+
+{% endblock page_header %}
