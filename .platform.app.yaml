@@ -1,4 +1,4 @@
-name: "ll-project"
+name: "ll_project"
 type: "python:3.10"
 
 relationships:
